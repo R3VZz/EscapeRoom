@@ -50,12 +50,3 @@ export const selectEnding = async () => {
 return response
 }
 
-export const continuey = async () => {
-    let { response } = await inquirer.prompt({
-        name: "response",
-        type: "list",
-        message: "",
-        choices: ["Begin adventure"]
-    })
-    return response
-}
