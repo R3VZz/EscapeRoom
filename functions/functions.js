@@ -1,5 +1,6 @@
 import { getDirection, getName, retry, selectEnding, selectAction } from './inquiry.js'
 import { Player, Enemy, Boss, Room } from './classes.js'
+import { derek, kevin, pnorris, cyrill, angela, death } from './ascii.js'
 
 export async function user() {
     const player = new Player(await getName())
