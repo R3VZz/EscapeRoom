@@ -43,8 +43,19 @@ export const selectEnding = async () => {
     let { response } = await inquirer.prompt({
         name: "response",
         type: "list",
-        message: "What would you like to do next ? Good or Bad ? ",
-        choices: ["Good end", "Bad end"]
+        message: `Derek the Dementor lies dead on the ground. You've fought your way from the kidneys to the brain.
+        You ponder what to do next... The two ideas that occur to you are:`,
+        choices: ["Tickle brain", "Poke brain"]
     })
 return response
+}
+
+export const continuey = async () => {
+    let { response } = await inquirer.prompt({
+        name: "response",
+        type: "list",
+        message: "",
+        choices: ["Begin adventure"]
+    })
+    return response
 }

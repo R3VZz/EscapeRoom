@@ -7,6 +7,8 @@ ________                            __
 /_______  / \___  > |__|    \___  >|__|_ \
         \/      \/              \/      \/
               THE DEMENTOR
+
+combat begins:
 `
     console.log(rawString2)
 }
@@ -20,6 +22,8 @@ ____  __.               .__
 |____|__ \ \___  >  \_/  |__||___|  /
         \/     \/                 \/ 
           THE KIDNEY STONE
+          
+combat begins:
 `
     console.log(rawString3)
 }
@@ -33,6 +37,8 @@ __________                                 .__
  |____|    |___|  / \____/  |__|    |__|   |__|/____  >
                 \/                                  \/ 
                    PNEUMONIA
+                   
+combat begins:
 `
     console.log(rawString4)
 }
@@ -46,6 +52,8 @@ _________                  .__ .__   .__
  \______  / / ____| |__|   |__||____/|____/
         \/  \/                            
                CIRRHOSIS
+               
+combat begins:
 `
     console.log(rawString5)
 }
@@ -59,6 +67,8 @@ export const angela = () => {
 \____|__  /|___|  / \___  /  \___  >|____/(____  /
         \/      \/ /_____/       \/            \/ 
                     ANGINA
+                    
+combat begins:
 `
     console.log(rawString6)
 }
@@ -79,6 +89,5 @@ o000000..000000o
   .o00000000o.
     .o00000o.
 
- \x1b[31mYOU HAVE DIED\x1b
-`)
+ \x1b[31mYOU HAVE DIED\x1b`)
 }
